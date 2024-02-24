@@ -1,17 +1,18 @@
 // Exercise 1: Calculate the Sum of Two Numbers
 
-ask for number1
-save input as number1
-ask for number2
-save input as number2
-add number1 and number2 save result
-display result on screen
+ask for the first number
+save input as Number1
+ask for the second number
+save input as Number2
+add Number1 and Number2 save as Result
+display Result on screen
 
 // Exercise 2: Check if a Number is Even or Odd
 
 ask for number input
 save number input as Number
 devide Number by 2 and save result as Result
+check if Result have decimal positions
 if Result have decimal positions
 display Number " is odd"
 else
