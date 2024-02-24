@@ -1,0 +1,57 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+ask for number1
+save input as number1
+ask for number2
+save input as number2
+add number1 and number2 save result
+display result on screen
+
+// Exercise 2: Check if a Number is Even or Odd
+
+ask for number input
+save number input as Number
+devide Number by 2 and save result as Result
+if Result have decimal positions
+display Number " is odd"
+else
+display Number " is even"
+
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers. 
+
+ask user to input numbers one by one  
+save each number in a data structure Numbers[0 to 4]
+
+b) Calculate the average of the five numbers.
+save 0 as Total
+go to each number in Numbers[] and add the number to Total save the result as Total
+devide Total by the amount on numbers in Numbers[] (5) save the result as Average
+
+
+
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+
+save the first number in Numbers[] as MinimunValue
+save the first number in Numbers[] as MaximunValue
+
+go to each number in Numbers and check if it is smaller than MinimumValue
+if a number is smaller than MinimunValue
+save number as MinimunValue
+
+go to each number in Numbers and check if it is larger that MaximunValue
+if number is larger than MaximunValue
+save number as MaximunValue
+
+d) Write out the results found from steps b and c with a message describing what they are
+
+display "The average of the collection of numbers is" Average
+display "The smaller number is" MinimunValue
+display "The largest number is" MaximunValue
+
+(Your pseudocode here)
+
+-- END --
